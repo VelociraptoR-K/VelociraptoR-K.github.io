@@ -2,8 +2,8 @@
 site_name: VelociRaptoR-K
 site_description: Сайт-портфолио с лабораторными работами и достижениями
 site_author: Быстров Николай
-docs_dir: docs
-site_dir: ../docs
+docs_dir: source/docs
+site_dir: site
 
 # Настройка темы Windmill
 theme:
