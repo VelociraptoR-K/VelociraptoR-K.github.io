@@ -33,7 +33,7 @@ jobs:
           # pip install -r requirements.txt
 
       - name: Build site
-        run: mkdocs build --config-file source/mkdocs.yml -d ../docs
+        run: mkdocs build --config-file src/mkdocs.yml -d ../docs
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
