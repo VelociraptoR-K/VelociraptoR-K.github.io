@@ -1,16 +1,11 @@
-# Название сайта
 site_name: VelociRaptoR-K
 site_description: Сайт-портфолио с лабораторными работами и достижениями
 site_author: Быстров Николай
-docs_dir: source/docs
-site_dir: docs
 
-# Настройка темы Material
 theme:
   name: material
   language: ru
   palette:
-    # Цветовая схема
     - scheme: default
       primary: indigo
       accent: indigo
@@ -24,12 +19,11 @@ theme:
         icon: material/toggle-switch
         name: Переключить на светлую тему
   features:
-    - navigation.sections  # Показывает секции навигации
-    - navigation.expand    # Раскрывает все разделы по умолчанию
-    - toc.sidebar          # оглавление справа
-    - content.code.copy    # кнопка копирования кода
+    - navigation.sections
+    - navigation.expand
+    - toc.sidebar
+    - content.code.copy
 
-# Структура меню (навигация)
 nav:
   - Главная страница: index.md
   - Об авторе: about.md
@@ -41,17 +35,15 @@ nav:
   - Контакты: contacts.md
   - Увлечения: hobbies.md
 
-# Дополнительные настройки
 plugins:
-  - search # добавили поиск на сайте
+  - search
 
 markdown_extensions:
-  - admonition # позволяет создавать красивые блоки с заметками, предупреждениями
-  - codehilite # делает код цветным
+  - admonition
+  - codehilite
   - pymdownx.superfences
   - pymdownx.highlight:
         use_pygments: true
   - toc:
-      permalink: true # добавляет символ ¶ рядом с заголовками, при клике на который можно скопировать прямую ссылку на этот заголовок
+      permalink: true
       toc_depth: 0
-
