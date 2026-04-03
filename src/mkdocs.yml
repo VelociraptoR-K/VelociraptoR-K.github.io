@@ -5,7 +5,7 @@ site_author: Быстров Николай
 docs_dir: source/docs
 site_dir: docs
 
-# Настройка темы Windmill
+# Настройка темы Material
 theme:
   name: material
   language: ru
