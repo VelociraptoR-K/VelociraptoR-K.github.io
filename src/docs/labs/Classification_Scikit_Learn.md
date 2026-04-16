@@ -1,6 +1,6 @@
 # Классификация с применением Scikit-Learn
 
-## Готовый ipynb-борд с заполненными ячейками по ссылке: ![ipynb](https://colab.research.google.com/drive/1tN9qmH7w6Mj3wk0s0PqvleIjevP2AxBP?usp=sharing)
+## Готовый ipynb-борд с заполненными ячейками по ссылке: [scikit-learn classification](https://colab.research.google.com/drive/1tN9qmH7w6Mj3wk0s0PqvleIjevP2AxBP?usp=sharing)
 
 ### Пошаговый алгоритм интеграции обученной scikit-learn модели с веб-сервисом на Django:
 
