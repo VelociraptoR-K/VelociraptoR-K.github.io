@@ -34,7 +34,7 @@ nav:
       - Лабораторная работа 10: labs/Laboratory_10.md
       - Лабораторная по NumPy: labs/LR-2.md
       - Классификация с применением Scikit-Learn: labs/Classification_Scikit_Learn.md
-      - Регресссия с применением Scikit-Learn: labs/Regression_Scikit_Learn.md
+      - Регрессия с применением Scikit-Learn: labs/Regression_Scikit_Learn.md
   - Место учёбы: education.md
   - Контакты: contacts.md
   - Увлечения: hobbies.md
